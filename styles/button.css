@@ -1,0 +1,33 @@
+.button {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 240px;
+  height: 50px;
+  border: 1px solid #0386a0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-right: 80px;
+  font-size: 14px;
+  text-transform: uppercase;
+  background-color: white;
+  color: #121212;
+  -webkit-transition: color 0.7s, -webkit-transform 0.7s;
+  transition: color 0.7s, -webkit-transform 0.7s;
+  transition: transform 0.7s, color 0.7s;
+  transition: transform 0.7s, color 0.7s, -webkit-transform 0.7s; }
+  .button__arrow {
+    margin-left: 10px; }
+  .button:hover {
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+    color: #0386a0; }
+
+/*# sourceMappingURL=button.css.map */

@@ -1,0 +1,68 @@
+.header {
+  background: url(../images/header/header-back.png) no-repeat top;
+  background-color: white;
+  background-size: contain;
+  padding: 30px 144px 150px;
+  overflow: hidden;
+  font-size: 16px;
+  line-height: 150%;
+  height: 640px; }
+  .header__img {
+    width: 100%; }
+  .header__row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+    .header__row-left {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: end;
+          -ms-flex-pack: end;
+              justify-content: flex-end; }
+      .header__row-left-link {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: end;
+            -ms-flex-pack: end;
+                justify-content: flex-end; }
+    .header__row-right {
+      width: 43%; }
+    .header__row-center {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: end;
+          -ms-flex-align: end;
+              align-items: flex-end;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      width: 43%; }
+
+@media screen and (max-width: 999px) {
+  .header {
+    padding: 30px 70px; } }
+
+/*# sourceMappingURL=header.css.map */
