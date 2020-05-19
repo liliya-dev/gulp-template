@@ -1,0 +1,54 @@
+.materials {
+  background: url(../images/materials/back.png) no-repeat center;
+  background-size: cover;
+  height: 70vw;
+  width: 100vw;
+  position: relative; }
+  .materials__title {
+    width: 60%;
+    margin-left: 10%; }
+  .materials__container {
+    height: calc(100% - 100px);
+    width: 32%;
+    text-align: left;
+    position: absolute;
+    top: 100px;
+    right: 10%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+  .materials__text {
+    width: 100%;
+    display: block; }
+    .materials__text:last-child {
+      width: 80%;
+      padding: 35px;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      background: rgba(0, 0, 0, 0.41);
+      mix-blend-mode: normal;
+      -webkit-backdrop-filter: blur(34px);
+              backdrop-filter: blur(34px); }
+
+@media screen and (max-width: 950px) {
+  .materials__container {
+    width: 100%; }
+  .materials__text:last-child {
+    width: 70%;
+    position: absolute;
+    bottom: 0;
+    left: 15%; }
+  .materials__text:first-child {
+    display: none; } }
+
+/*# sourceMappingURL=materials.css.map */
