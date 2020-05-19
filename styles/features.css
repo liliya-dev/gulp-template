@@ -13,7 +13,8 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
   .features__main-title {
-    margin-bottom: 80px; }
+    margin-bottom: 80px;
+    width: 60%; }
   .features__container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -25,11 +26,20 @@
         flex-wrap: wrap; }
   .features__item {
     width: 30%;
-    min-width: 160px;
-    text-align: center; }
+    min-width: 220px;
+    text-align: center;
+    padding: 15px; }
   .features__img {
     max-width: 100%; }
   .features__title {
     text-align: center; }
+
+@media screen and (max-width: 1200px) {
+  .features {
+    padding: 0 50px 35px; }
+    .features__container {
+      -webkit-box-pack: space-evenly;
+          -ms-flex-pack: space-evenly;
+              justify-content: space-evenly; } }
 
 /*# sourceMappingURL=features.css.map */
