@@ -575,6 +575,70 @@ h1 {
   .materials__text:first-child {
     display: none; } }
 
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400; }
+
+.pots-size {
+  padding: 120px 135px; }
+  .pots-size__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+  .pots-size__fragment {
+    width: 48%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .pots-size__img {
+    width: 48%; }
+
+.fragment__column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.fragment__text {
+  margin-right: 15px; }
+  .fragment__text:last-child {
+    margin-left: 15px; }
+
+.fragment__line {
+  width: 2px;
+  background-color: #d9d9d9; }
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400; }
+
+.extra {
+  padding-right: 105px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  .extra__container {
+    width: 50%; }
+  .extra__photos {
+    width: 50%; }
+  .extra__item-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+  .extra__item {
+    width: 49%; }
+
 body {
   background: #eee;
   margin: 0;
@@ -609,6 +673,32 @@ h4 {
   line-height: 24px;
   letter-spacing: 0.15em;
   text-transform: uppercase;
+  color: #333333; }
+
+h5 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 18px;
+  line-height: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  letter-spacing: 0.15em;
+  color: black;
+  margin-top: 20px; }
+
+h6 {
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 30px;
+  line-height: 150%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
   color: #333333; }
 
 a {
