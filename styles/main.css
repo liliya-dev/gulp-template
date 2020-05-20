@@ -116,6 +116,9 @@ a {
   line-height: 19px;
   color: #333333; }
 
+.materials__text:last-child {
+  color: #e6e6e6; }
+
 .footer__text {
   margin-bottom: 20px;
   color: #333333; }
@@ -355,7 +358,13 @@ p {
   border: none;
   border-bottom: 1px dotted #333333;
   color: #333333;
-  background-color: #ffeb7a; }
+  background-color: #ffeb7a;
+  -webkit-transition: color 1s;
+  transition: color 1s; }
+  .submit-button:hover {
+    color: #0386a0; }
+  .submit-button:active {
+    color: #0386a0; }
 
 .button {
   cursor: pointer;
@@ -441,7 +450,16 @@ p {
               flex-direction: column; }
   .description__img {
     max-width: 500px;
-    height: auto; }
+    height: auto;
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+    transition: transform 0.5s, -webkit-transform 0.5s; }
+    .description__img:hover {
+      -webkit-box-shadow: 0 6px 23px rgba(154, 147, 140, 0.5);
+              box-shadow: 0 6px 23px rgba(154, 147, 140, 0.5);
+      -webkit-transform: scale(1.05);
+              transform: scale(1.05); }
     .description__img--small {
       width: 100%;
       max-width: 350px; }
@@ -662,8 +680,8 @@ p {
     width: 60%;
     margin-left: 10%; }
   .materials__container {
-    height: calc(100% - 100px);
     width: 100%;
+    height: 70%;
     text-align: left;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -683,10 +701,15 @@ p {
     width: 100%;
     max-width: 600px; }
     .materials__text:last-child {
+      max-width: 500px;
       width: 80%;
       padding: 35px;
       -webkit-box-sizing: border-box;
-              box-sizing: border-box; }
+              box-sizing: border-box;
+      background: rgba(0, 0, 0, 0.41);
+      mix-blend-mode: normal;
+      -webkit-backdrop-filter: blur(34px);
+              backdrop-filter: blur(34px); }
 
 @media screen and (max-width: 950px) {
   .materials__container {
@@ -910,7 +933,9 @@ p {
         -ms-flex-direction: column;
             flex-direction: column; }
   .footer__title {
-    margin-bottom: 20px; }
+    margin-bottom: 10px; }
+  .footer__text {
+    margin-top: 20px; }
   .footer__container {
     display: -webkit-box;
     display: -ms-flexbox;

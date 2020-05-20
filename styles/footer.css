@@ -31,7 +31,9 @@
         -ms-flex-direction: column;
             flex-direction: column; }
   .footer__title {
-    margin-bottom: 20px; }
+    margin-bottom: 10px; }
+  .footer__text {
+    margin-top: 20px; }
   .footer__container {
     display: -webkit-box;
     display: -ms-flexbox;

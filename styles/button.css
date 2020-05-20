@@ -4,7 +4,13 @@
   border: none;
   border-bottom: 1px dotted #333333;
   color: #333333;
-  background-color: #ffeb7a; }
+  background-color: #ffeb7a;
+  -webkit-transition: color 1s;
+  transition: color 1s; }
+  .submit-button:hover {
+    color: #0386a0; }
+  .submit-button:active {
+    color: #0386a0; }
 
 .button {
   cursor: pointer;
