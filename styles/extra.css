@@ -12,7 +12,14 @@
   .extra__photos {
     width: 50%; }
   .extra__img {
-    max-width: 280px; }
+    max-width: 280px;
+    -webkit-transition: -webkit-transform 2s;
+    transition: -webkit-transform 2s;
+    transition: transform 2s;
+    transition: transform 2s, -webkit-transform 2s; }
+    .extra__img:hover {
+      -webkit-transform: rotate(360deg) scale(1.1);
+              transform: rotate(360deg) scale(1.1); }
   .extra__item-container {
     display: -webkit-box;
     display: -ms-flexbox;
