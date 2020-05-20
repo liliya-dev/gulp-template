@@ -1,3 +1,11 @@
+.submit-button {
+  cursor: pointer;
+  width: 20%;
+  border: none;
+  border-bottom: 1px dotted #333333;
+  color: #333333;
+  background-color: #ffeb7a; }
+
 .button {
   cursor: pointer;
   display: -webkit-box;
@@ -11,30 +19,32 @@
           justify-content: center;
   width: 240px;
   height: 50px;
-  border: 1px solid #0386a0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin-right: 80px;
-  font-size: 14px;
-  text-transform: uppercase;
-  background-color: white;
-  color: #121212;
-  -webkit-transition: color 0.5s, -webkit-transform 0.5s;
-  transition: color 0.5s, -webkit-transform 0.5s;
-  transition: transform 0.5s, color 0.5s;
-  transition: transform 0.5s, color 0.5s, -webkit-transform 0.5s; }
+  border: 1px solid #0386a0;
+  outline: none;
+  background-color: #e6e6e6;
+  -webkit-transition: color 0.5s, background-color 1s, -webkit-transform 0.5s;
+  transition: color 0.5s, background-color 1s, -webkit-transform 0.5s;
+  transition: transform 0.5s, color 0.5s, background-color 1s;
+  transition: transform 0.5s, color 0.5s, background-color 1s, -webkit-transform 0.5s; }
   .button__arrow {
     margin-left: 10px; }
   .button:hover {
     -webkit-box-shadow: 2px 2px 5px rgba(154, 147, 140, 0.5);
             box-shadow: 2px 2px 5px rgba(154, 147, 140, 0.5);
     color: #0386a0; }
+  .button:active {
+    -webkit-box-shadow: 2px 2px 5px rgba(154, 147, 140, 0.5);
+            box-shadow: 2px 2px 5px rgba(154, 147, 140, 0.5);
+    background-color: rgba(202, 201, 201, 0.74); }
 
 @media screen and (max-width: 850px) {
   .button {
     width: 90%;
     margin-right: 0;
-    background-color: #ffe438; } }
+    background-color: #ffeb7a; } }
 
 @media screen and (max-width: 550px) {
   .button {

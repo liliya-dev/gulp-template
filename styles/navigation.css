@@ -6,10 +6,10 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-bottom: 90px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-bottom: 90px;
   overflow: hidden; }
   .nav__mobile {
     display: none; }
@@ -23,8 +23,7 @@
     width: 34%;
     min-width: 450px; }
   .nav__item {
-    display: inline-block;
-    color: #4f4f4f; }
+    display: inline-block; }
   .nav__link {
     color: #4f4f4f;
     -webkit-transition: color 1s;
@@ -54,10 +53,9 @@
     .nav__bag {
       display: none; }
     .nav__list {
-      width: 1px;
       position: absolute;
-      top: -20px;
-      right: 100%;
+      top: -130%;
+      right: 0;
       z-index: 2;
       display: -webkit-box;
       display: -ms-flexbox;
@@ -73,26 +71,26 @@
       height: 450px;
       min-width: 230px;
       padding-top: 70px;
-      -webkit-transition: right 1s;
-      transition: right 1s; }
+      -webkit-transition: top 1s;
+      transition: top 1s; }
     .nav__link {
       color: white; }
+    .nav__item {
+      margin-top: 30px; }
   .nav--is-active .nav {
     -webkit-box-align: space-between;
         -ms-flex-align: space-between;
             align-items: space-between;
     -webkit-box-pack: start;
         -ms-flex-pack: start;
-            justify-content: flex-start;
-    position: relative; }
+            justify-content: flex-start; }
     .nav--is-active .nav__list {
-      -webkit-transition: right 1s;
-      transition: right 1s;
+      -webkit-transition: top 1s;
+      transition: top 1s;
+      top: -20px;
       right: 0; }
-    .nav--is-active .nav__item {
-      margin-top: 30px; }
-      .nav--is-active .nav__item:first-child {
-        display: block; }
+    .nav--is-active .nav__item:first-child {
+      display: block; }
     .nav--is-active .nav__mobile-button {
       display: none; }
     .nav--is-active .nav__mobile-close {
@@ -104,6 +102,6 @@
       position: absolute;
       bottom: 110px;
       right: -50px;
-      color: white; } }
+      color: #e6e6e6; } }
 
 /*# sourceMappingURL=navigation.css.map */

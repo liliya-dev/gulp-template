@@ -1,0 +1,1 @@
+{"version":3,"sources":["reset.scss"],"names":[],"mappings":"AAAA;;;;;;;EAOE,SAAS;EACT,UAAU,EAAA;;AAGZ;EACE,mBAAmB;EACnB,gBAAgB,EAAA","file":"reset.css","sourcesContent":["h1,\nh2,\nh3,\nh4,\nh5,\nh6,\nbody {\n  margin: 0;\n  padding: 0;\n}\n\np {\n  margin-bottom: 20px;\n  margin-top: 20px;\n}\n"]}

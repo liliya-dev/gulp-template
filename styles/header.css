@@ -3,8 +3,6 @@
   padding: 30px 144px 150px;
   background-size: 80% 60%;
   overflow: hidden;
-  font-size: 16px;
-  line-height: 150%;
   height: 640px; }
   .header__row {
     display: -webkit-box;
@@ -19,5 +17,10 @@
   .header {
     height: auto;
     padding: 30px 5%; } }
+
+@media screen and (min-width: 1600px) {
+  .header {
+    padding-left: calc(50% - 575px);
+    padding-right: calc(50% - 575px); } }
 
 /*# sourceMappingURL=header.css.map */

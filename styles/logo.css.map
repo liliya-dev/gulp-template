@@ -1,0 +1,1 @@
+{"version":3,"sources":["logo.scss"],"names":[],"mappings":"AAAA;EACE,YAAY;EACZ,YAAY,EAAA","file":"logo.css","sourcesContent":[".logo {\n  width: 130px;\n  height: 35px;\n}\n"]}
